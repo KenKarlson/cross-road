@@ -1,6 +1,4 @@
 import * as THREE from "three";
-
-export const player = Player();
 function Player() {
   const body = new THREE.Mesh(
     new THREE.BoxGeometry(15, 15, 20),
@@ -15,3 +13,5 @@ function Player() {
 
   return body;
 }
+
+export const player = Player();
