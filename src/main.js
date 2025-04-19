@@ -1,7 +1,6 @@
 import * as THREE from "three";
-import { Render } from "./components/Render";
+import { Renderer } from "./components/Renderer";
 import { Camera } from "./components/Camera";
-import { Scene } from "./components/Scene";
 import { player } from "./components/Player";
 import "./style.css";
 
